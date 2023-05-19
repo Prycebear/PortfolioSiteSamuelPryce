@@ -1,0 +1,46 @@
+body{
+    background-color: dimgray;
+}
+
+#title{
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+h1 { 
+    text-align: center;
+}
+
+p{
+    text-align: center;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+}
+
+
+
+button{
+    background-color: aquamarine;
+    text-align: center;
+    border-radius: 4%;
+    height: 2rem;
+}
+
+
+#firstDiv{
+    text-align: center;
+    color: black;
+}
+
+#firstButtons{
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+#secondDiv{
+    text-align: center;
+}
