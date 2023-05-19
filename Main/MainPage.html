@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Samuel Pryce Portfolio</title>
+    <link rel="stylesheet" href="MainPageCss.css">
+    <script src="MainPage.js"></script>
+  </head>
+  <body>
+    <header>
+        <h1 id ='title'>A basic Page to show my understanding of the fundamentals of Frontend Development!</h1>
+    </header>
+
+    <div>
+        <p>I could show you all the elements in a nice big list or you can press this button and i'll do it on a single line?</p>
+        <div id = 'firstButtons'>
+            <button type="button" onclick= "cycleBack()" >
+                Go back
+            </button>
+            <button type="button" onclick= "cycleRandom()">
+                Random
+            </button>
+            <button type="button" onclick= "cycleForward()">
+                Go forward
+            </button>
+                
+        </div>
+    </div>
+        
+    <div id = 'firstDiv'>
+        <h1 id = 'firstArticleHeader'>Basic HTML element examples</h1>
+    </div>
+
+    
+    
+    <div>
+        <button type="button"
+            onclick="document.getElementById('demoTime').innerHTML = Date()">
+            Click me to display Date and Time.
+        </button>
+        <p id="demoTime"></p>
+    </div>
+    
+	<script src="MainPage.js"></script>
+  </body>
+</html>
