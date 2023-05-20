@@ -5,7 +5,9 @@ let cycleThroughElements = [
     '<h3 id = "changedElement">This is h3!</h3>',
     '<h4 id = "changedElement">This is h4!</h5>',
     '<h5 id = "changedElement">This is h5!</h5>',
-    '<p id = "changedElement">This is p!</p>'
+    '<p id = "changedElement">This is p!</p>',
+    '<ul><li>This</li><li>is</li><li>a</li><li>unordered</li><li>List</li></ul>',
+    '<ul><li>This</li><li>is</li><li>a</li><li>ordered</li><li>List</li></ul>'
 
 ]
 
